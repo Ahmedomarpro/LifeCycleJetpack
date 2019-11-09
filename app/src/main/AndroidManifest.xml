@@ -11,33 +11,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".navigation.NavigationMain">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".navigation.NewActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".fragment.MainFragment">
 <!--
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter>
 -->
+
+
+        </activity>
+
+        <activity android:name=".fragment.MainFragment">
+
+            <!--
+            <
+            -->
         </activity>
         <activity android:name=".Activity.main.Main2Activity" />
         <activity android:name=".Activity.main.MainActivity">
 
-            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
         </activity>
     </application>
 
 </manifest>
+
