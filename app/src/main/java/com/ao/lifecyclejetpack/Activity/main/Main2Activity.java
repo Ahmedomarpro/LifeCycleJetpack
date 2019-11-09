@@ -80,6 +80,6 @@ public class Main2Activity extends AppCompatActivity {
 
 	public void to(View view) {
 		startActivity(new Intent(Main2Activity.this, MainActivity.class));
-		finishAffinity();
+		finish();
 	}
 }

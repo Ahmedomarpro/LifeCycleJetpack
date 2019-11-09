@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 	public void OK(View view) {
 		startActivity(new Intent(this, Main2Activity.class));
-		//finishAffinity();
+		finishAffinity();
 	}
 /*
 	@Override
